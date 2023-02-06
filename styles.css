@@ -79,7 +79,7 @@ section {
       font-size: 0.5rem;
     }
 
-    .btn {
+    .green, .yellow {
       width: 50% !important;
     }
 

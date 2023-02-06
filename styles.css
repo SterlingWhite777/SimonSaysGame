@@ -31,13 +31,13 @@ section {
 }
 
 .btn {
-  margin: 1%;
+  margin: 0.5%;
   display: flex;
   flex: 1;
   aspect-ratio: 1 / 1;
   max-width: 200px;
   border: 10px solid black;
-  border-radius: 20%;
+  /* border-radius: 20%; */
 }
 
 .game-over {
@@ -47,18 +47,22 @@ section {
 
 .red {
   background-color: red;
+  border-radius: 10% 100% 10% 20%;
 }
 
 .green {
   background-color: green;
+  border-radius: 100% 10% 20% 10%;
 }
 
 .blue {
   background-color: blue;
+  border-radius: 20% 10% 100% 10%;
 }
 
 .yellow {
   background-color: yellow;
+  border-radius: 10% 20% 10% 100%;
 }
 
 .pressed {
